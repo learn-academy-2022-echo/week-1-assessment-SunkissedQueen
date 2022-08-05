@@ -7,10 +7,10 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:["tangerine", "magenta", "lilac", "daffodil", "indigo"]
+// b) Verify and explain: 5; the console.log is showing how many values are in my array after the push method
 
 
 // --------------------1) What will this log?

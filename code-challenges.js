@@ -6,8 +6,6 @@
 
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in any two strings and returns the string with more characters. Use the two sets of test variables provided.
 
-// Pseudo code:
-
 // Set one:
 const fruit1 = "apple"
 const fruit2 = "banana"
@@ -16,7 +14,23 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 
+// Pseudo code:
+// declare a function named stringOne
+// input/parameters: two strings
+// expected output: the string with more characters
+// use conditional statements to return the string with more characters
+// use a builtin method to compare the amount of characters in each variable - length method 
 
+// function
+const stringOne = (word1, word2) => {
+  if(word1.length > word2.length){
+    return word1
+  } else {
+    return word2
+  }
+}
+console.log(stringOne(fruit1, fruit2))
+console.log(stringOne(fruit3, fruit4))
 // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
 // Pseudo code:

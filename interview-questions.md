@@ -8,9 +8,18 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: evaluates true or false conditions and give an output
 
 Researched answer:
+Recommended ---> I have used conditional statements as a student. One challenge asked to assign a letter to a grade percentage. Using conditionals were very helpful. Conditionals have a code block that runs after a true condition has been met. For example, if I wanted a letter "A" to be produced, I can set up a condition that sets up the grade percentage >=93 with a code block to return A.
+
+Plagiarism ---> Copy/paste from website 
+In JavaScript we have the following conditional statements:
+
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false
+Use else if to specify a new condition to test, if the first condition is false
+Use switch to specify many alternative blocks of code to be executed
 
 1. What is git? What is the difference between git and Github?
 
